@@ -1,219 +1,217 @@
-.page{
+.entire-content {
+	width: 960px;
+	margin: auto;
+}
+.navbar {
+	background-color: white;
+	height: 100px;
+	position: fixed;
+	top: -10px;
+	left: 0px;
+	right: 0px;
+	margin: 0px;
+	display: block;
+	border-bottom: #666 2px solid;
+	z-index: 1;
 }
 
-.entire-content{
-    width:960px;
-    margin: auto;
-    clear: both;
-}
-.navbar{
-    background-color: white;
-    height: 100px;
-    position: fixed;
-    top:-10px;
-    left: 0px;
-    right:0px;
-    margin:0px;
-    display: block;
-    border-bottom: #666 2px solid;
-    z-index: 1;
+.namebox {
+	background-color: #008000;
+	padding: 10px;
+	position: relative;
+	display: inline-block;
+	height: 80px;
+	left: 0px;
+	color: whitesmoke;
 }
 
-
-.namebox{
-    background-color: #008000;
-    padding: 10px;
-    position:relative;
-    display: inline-block;
-    height:80px;
-    left: 0px;
-    color: whitesmoke
+h1 {
+	font-size: 36px;
+}
+.navbox {
+	position: relative;
+	height: 100px;
+	display: inline-block;
+	float: right;
+	color: #777;
 }
 
-h1{
-    font-size: 36px;
-}
-.navbox{
-    position:relative;
-    height:100px;
-    display: inline-block;
-    float:right;
-    color: #777
-  
+.navbutton {
+	display: inline;
+	/* margin-left: 20px; */
+	font-size: 1.3em;
+	position: relative;
+	top: 15px;
+	padding-left: 20px;
 }
 
-.navbutton{
-    display: inline;
-    /* margin-left: 20px; */
-    font-size: 1.3em;
-    position: relative; 
-    top: 15px;
-    padding-left: 20px;
+ul {
+	position: relative;
+	/* right: 25px; */
+	top: 10px;
 }
-
-ul{
-    position: relative;
-    /* right: 25px; */
-    top: 10px;
-    
-}
-
-
 
 .navline {
-   width:1px;
-   height: 0px;
-   display: inline;
-   position: relative;
-   top: 15px;
-   left: 6px;
+	width: 1px;
+	height: 0px;
+	display: inline;
+	position: relative;
+	top: 15px;
+	left: 6px;
 }
 
-body{
-    /* background: gray; */
-
+body {
+	/* background: gray; */
 }
 
-.content{
-    display: block;
-    position: relative;             
-    top: 70px;
-    /* margin: auto; */
-    margin: 75px auto;
-    background-color: white;
-    padding: 40px 20px;
-    width: 920px;
-    color: #777777;
-    border: solid #777 1px;
-    clear:both;
-    
+.content {
+	display: block;
+	position: relative;
+	top: 70px;
+	/* margin: auto; */
+	margin: 75px auto;
+	background-color: white;
+	padding: 40px 20px;
+	width: 920px;
+	color: #777777;
+	border: solid #777 1px;
+	clear: both;
 }
 
-h2{
-    font-size: 36px;
-    color: #008000
+h2 {
+	font-size: 36px;
+	color: #008000;
 }
 
-#profile-photo{
-    display:inline-block;
-    width: 250px;
-    height:auto;
-    float:left;
-    margin-right: 20px;
+#profile-photo {
+	display: inline-block;
+	width: 250px;
+	height: auto;
+	float: left;
+	margin-right: 20px;
 }
 
-.body-text{
-    line-height:2em;
+.body-text {
+	line-height: 2em;
 }
 
-footer{
-    position: fixed;
-    bottom: 0;
-    border-top: 8px solid#008000;
-    background: #666;
-    left: 0px;
-    right: 0px;
-    height: 40px;
-    color: #ddd;
-    display:inline-block;
-    z-index: 1;
+footer {
+	position: fixed;
+	bottom: 0;
+	border-top: 8px solid#008000;
+	background: #666;
+	left: 0px;
+	right: 0px;
+	height: 40px;
+	color: #ddd;
+	display: inline-block;
+	z-index: 1;
 }
 
-.copyright{
-    margin: auto;
-    clear: both; 
-    text-align: center;
-    padding-top: 20px;
+.copyright {
+	margin: auto;
+	clear: both;
+	text-align: center;
+	padding-top: 20px;
 }
 
-fieldset{
-    border: none;
-    position: relative;
-    left: -15px;
-    width: 99.7%
-    
+fieldset {
+	border: none;
+	position: relative;
+	left: -15px;
+	width: 99.7%;
 }
 
-label{
-    /* padding-bottom: 10px; */
+label {
+	/* padding-bottom: 10px; */
 }
 
-.text-box{
-    width: 100%;
-    line-height: 20px;
+.text-box {
+	width: 100%;
+	line-height: 20px;
 }
 
-form{
-    /* margin-top: 10px; */
-    padding-top: 10px;
+form {
+	/* margin-top: 10px; */
+	padding-top: 10px;
 }
 
-#emailbox{
-    /* position:relative;
+#emailbox {
+	/* position:relative;
     top: 10px; */
 }
 
-#messagebox{
-    /* position: relative;
+#messagebox {
+	/* position: relative;
     top: 20px; */
 }
 
-textarea{
-    border: 1px #d0d0d0 solid;
+textarea {
+	border: 1px #d0d0d0 solid;
 }
 
-a{
-    text-decoration: none;   
+a {
+	text-decoration: none;
 }
-
 
 /*------------------ Portfolio styles ------------------ */
 
-.row{
-   height:340px;
+.row {
+	height: 340px;
 }
 
 .preview {
-    
-    margin:0px 40px;
-
+	margin: 0px 40px;
 }
 
-img{
-    width:200px;
-    height:300px;
-    /* margin:30px; */
-    position: relative;
+img {
+	width: 200px;
+	height: 300px;
+	/* margin:30px; */
+	position: relative;
 }
 
 .preview-text {
-    /* position: fixed; */
-    display: inline-block;
-    /* background-color: black; */
-    color: white;
-    margin:0px 40px;
-    /* float:left; */
-    ;
+	/* position: fixed; */
+	display: inline-block;
+	/* background-color: black; */
+	color: white;
+	margin: 0px 40px;
+	/* float:left; */
 }
 
-.preview-text>h2{
-    position:relative;
-    background:#008000;
-    width:200px;
-    text-align:center;
-    color:white;
-    bottom:100px;
-    margin:0px;
-
+.preview-text > h2 {
+	position: relative;
+	background: #008000;
+	width: 200px;
+	text-align: center;
+	color: white;
+	bottom: 100px;
+	margin: 0px;
 }
 
-.images{
-    margin-top:30px;
+.images {
+	margin-top: 30px;
 }
 
-.container{
-    display: inline-block;
-    margin:0px;
-    padding: 0px;
+.container {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
 }
-
+@media only screen and (max-width: 980px) {
+	body {
+		margin: 0;
+	}
+	.navbar {
+		position: static;
+	}
+	.entire-content {
+		width: 100%;
+		margin: 0px;
+	}
+	.content {
+		width: 90%;
+		margin: auto;
+	}
+}
