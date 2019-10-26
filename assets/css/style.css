@@ -4,7 +4,7 @@
 }
 .navbar {
 	background-color: white;
-	height: 100px;
+	/* height: 100px; */
 	position: fixed;
 	top: -10px;
 	left: 0px;
@@ -206,6 +206,9 @@ img {
 	.navbar {
 		position: static;
 	}
+	footer {
+		position: static;
+	}
 	.entire-content {
 		width: 100%;
 		margin: 0px;
@@ -213,5 +216,34 @@ img {
 	.content {
 		width: 90%;
 		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.navbox {
+		float: none;
+		position: relative;
+		align-content: center;
+		display: block;
+		width: 400px;
+		margin: 0px auto;
+		left: 18px;
+		height: auto;
+		bottom: 20px;
+	}
+	.namebox {
+		display: block;
+		align-items: center;
+		height: 70px;
+	}
+
+	div.namebox h1 {
+		text-align: center;
+		position: relative;
+		bottom: 10px;
+	}
+
+	#profile-photo {
+		width: 100%;
 	}
 }
